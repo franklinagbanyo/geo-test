@@ -8,12 +8,12 @@ pipeline{
     }
         stage ( 'maven install'){
         steps{ 
-            sh 'mvn install'   
+            sh 'maven install'   
         }
     }
         stage ( 'maven package'){
         steps{ 
-            sh 'mvn package'   
+            sh 'maven package'   
         }
     }
     }
