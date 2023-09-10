@@ -1,21 +1,23 @@
 pipeline{
     agent any
     stages{
-        stage('Maven clean'){
+        stage('maven clean'){
             steps{
-              sh 'mvn clean'
+                sh 'mvn clean'
+            }
         }
-         stage('Maven install'){
+        stage('maven install'){
             steps{
-              sh 'mvn install' 
-             } 
+                sh 'mvn install'
+            }
         }
-         stage('Maven package'){
+        stage('maven package'){
             steps{
-              sh 'mvn package'  
-            } 
+                sh 'mvn package'
+            }
         }
-      } 
-  }  
-}    
+        
+    }
+}
+    
     
