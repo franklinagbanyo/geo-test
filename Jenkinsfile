@@ -1,6 +1,7 @@
 pipeline{
     agent any
     stages{
+        maven 'Maven3'
         stage('maven clean'){
             steps{
                 sh 'mvn clean'
