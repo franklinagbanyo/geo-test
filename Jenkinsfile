@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
        tools{
-        maven '/opt/maven'
+        maven 'M2_HOME'
         }
         stage('maven clean'){
             steps{
