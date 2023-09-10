@@ -3,19 +3,16 @@ pipeline{
     stages{
         stage('Maven clean'){
             steps{
-
-            sh 'mvn clean'
+              sh 'mvn clean'
         }
          stage('Maven install'){
             steps{
-
-            sh 'mvn install' 
+              sh 'mvn install' 
              } 
         }
-        
          stage('Maven package'){
             steps{
-            sh 'mvn package'  
+              sh 'mvn package'  
             } 
         }
       } 
