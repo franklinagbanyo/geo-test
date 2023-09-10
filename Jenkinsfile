@@ -30,7 +30,7 @@
                      nexusVersion: 'nexus3',
                       protocol: 'http',
                        repository: 'frank-repo',
-                        version: '0.0.2-SNAPSHOT
+                        version: '0.0.2-SNAPSHOT'
             }
         }
     }
