@@ -28,7 +28,7 @@
                    groupId: 'QA', nexusUrl: 'ec2-18-209-44-106',
                     nexusVersion: 'nexus3',
                      protocol: 'http', repository: 'frank-repo',
-                      version: '0.0.2'
+                      version: '0.0.2-SNAPSHOT'
             }
         }
     }
