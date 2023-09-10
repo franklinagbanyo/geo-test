@@ -25,7 +25,7 @@
                 nexusArtifactUploader artifacts: [[artifactId: 'bioMedical',
                  classifier: '', file: '/target/bioMedical-0.0.2-SNAPSHOT.jar',
                   type: 'jar']], credentialsId: 'nexus-ID',
-                   groupId: 'qa', nexusUrl: '18-209-44-106:8081/repository/:frank-repo',
+                   groupId: 'qa', nexusUrl: '18-209-44-106:8081',
                     nexusVersion: 'nexus3', protocol: 'http',
                      repository: 'frank-repo', version: '0.0.2-SNAPSHOT'
             }
