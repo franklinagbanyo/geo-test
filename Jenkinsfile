@@ -1,20 +1,20 @@
 pipeline{
     agent any
     stages{
-        maven 'OPT_MAVEN'
+       
         stage('maven clean'){
             steps{
-                sh 'mvn clean'
+                sh '/opt/maven/bin/mvn clean'
             }
         }
         stage('maven install'){
             steps{
-                sh 'mvn install'
+                sh '/opt/maven/bin/mvn install'
             }
         }
         stage('maven package'){
             steps{
-                sh 'mvn package'
+                sh '/opt/maven/bin/mvn package'
             }
         }
         
