@@ -3,7 +3,8 @@ pipeline{
     stages{
        tools{
         maven 'M2_HOME'
-        }
+       }
+        
         stage('maven clean'){
             steps{
                 sh 'mvn clean'
